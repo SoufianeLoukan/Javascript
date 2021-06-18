@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: blue;
+
+}
+
+img {
+    width: 100px;
+}
+
+img.voorkant {
+    display: block;
+}
+
+img.achterkant {
+    display: none;
+}
+
+.zichtbaar .achterkant {
+    display: block;
+}
+
+.zichtbaar .voorkant {
+    display: none;
+}
+
+.memory-game {
+   display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.memory-kaart {
+    width: 100px;
+}
+
+#scoreboard {
+ width: 100%;
+ display: flex;
+}
+
+#scoreboard :last-child {
+    margin-left: auto;
+}
